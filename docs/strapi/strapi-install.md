@@ -167,7 +167,7 @@ npm run develop
 ## Ajout du port 1337 à UFW
 
 Pour autoriser l'accès à Strapi depuis l'extérieur, il faut ajouter le port 1337 à UFW.
-Le tutoriel pour ajouter un port à UFW est disponible [ici](/docs/ufw/config-ufw).
+Le tutoriel pour ajouter un port à UFW est disponible [ici](/docs/firewall/config-ufw).
 
 ```bash
 sudo ufw allow 1337

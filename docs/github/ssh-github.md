@@ -46,7 +46,7 @@ La clé doit ressembler à `ssh-rsa AAQD...`.
 
 ### Ajouter la clé SSH publique
 
-1. Se rendre sur [Github](github.com).  
+1. Se rendre sur [Github](https://github.com).  
    
 2. Se connecter à son compte.  
    

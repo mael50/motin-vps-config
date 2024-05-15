@@ -61,7 +61,7 @@ Pour clôner un repo Github, vous pouvez utiliser la commande suivante. Vous dev
 git clone git@github.com:YOUR_ACCOUNT/YOUR_REPO_NAME.git
 ```
 
-Vous devez bien avoir associé vos clés SSH à votre compte Github pour pouvoir clôner un repo de cette manière. Si ce n'est pas le cas, vous pouvez suivre [ce tutoriel](/docs/config-vps/ssh-github) pour ajouter vos clés SSH à votre compte Github.
+Vous devez bien avoir associé vos clés SSH à votre compte Github pour pouvoir clôner un repo de cette manière. Si ce n'est pas le cas, vous pouvez suivre [ce tutoriel](/docs/github/ssh-github) pour ajouter vos clés SSH à votre compte Github.
 
 ### Se rendre dans le dossier du repo
 
