@@ -158,6 +158,9 @@ DATABASE_PASSWORD="mot_de_passe"
 DATABASE_SSL_SELF=false
 ```
 
+Il y a d'autres lignes dans le fichier .env qui sont nécessaires pour le bon fonctionnement de Strapi. Vous pouvez les retrouver [ici](https://docs.strapi.io/dev-docs/configurations/environment/#strapis-environment-variables).
+Elles servent pour d'autres configurations de Strapi.
+
 Vous pouvez maintenant redémarrer Strapi.
 
 ```bash

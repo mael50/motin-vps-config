@@ -4,35 +4,25 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Documentation VPS',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Vous retrouverez dans la documentation VPS de Motin SAS, toutes les informations nécessaires pour la gestion du serveur VPS.
+        Cette documentation est basée sur l'installation actuelle du site (ReactJS + Strapi). Elle est réalisée en mai 2024 et est susceptible d'évoluer, ou de devenir obsolète.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Outils utilisés',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Cette documentation comporte également les différents outils utilisés pour le développement et le déploiement du site web motin.fr.
+        Vous y retrouverez des guides d'installation et de configuration pour tous les outils mis en place.
       </>
     ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  }
 ];
 
 function Feature({Svg, title, description}) {
@@ -53,7 +43,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="features row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
