@@ -1,0 +1,8 @@
+{
+  "label": "Strapi",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Strapi est un headless CMS open-source qui permet de créer, gérer et distribuer du contenu sur tout type de support. Dans le site Motin, il est utilisé pour gérer les articles, les recrutements et les message d'annonce."
+  }
+}

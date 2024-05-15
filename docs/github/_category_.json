@@ -1,0 +1,8 @@
+{
+  "label": "Github",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Dans cette première partie, nous allons voir comment configurer Github sur son VPS pour être capable de cloner des dépôts, de les modifier et de les pousser."
+  }
+}

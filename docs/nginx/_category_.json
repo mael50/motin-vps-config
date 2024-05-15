@@ -1,0 +1,8 @@
+{
+  "label": "Nginx",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Nous allons voir ici comment installer et configurer un serveur web Nginx."
+  }
+}

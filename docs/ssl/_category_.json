@@ -1,0 +1,8 @@
+{
+  "label": "Sécurité et SSL",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Cette partie est consacrée à la protection de vos données et de votre site web. Vous y trouverez des informations sur le SSL et les certificats"
+  }
+}

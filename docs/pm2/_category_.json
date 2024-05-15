@@ -1,0 +1,8 @@
+{
+  "label": "PM2",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "PM2 est un gestionnaire de processus de production pour les applications Node.js avec un équilibreur de charge intégré. Il vous permet de garder les applications en vie pour toujours, de les recharger sans temps d'arrêt et de faciliter les tâches courantes de gestion ou de développement."
+  }
+}

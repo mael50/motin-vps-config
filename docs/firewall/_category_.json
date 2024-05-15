@@ -1,0 +1,8 @@
+{
+  "label": "Gestion du firewall",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Gestion du firewall avec l'utilisation de UFW"
+  }
+}
