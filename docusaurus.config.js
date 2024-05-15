@@ -80,36 +80,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'GitHub',
-            items: [
-              {
-                label: 'Connexion SSH VPS/GitHub',
-                to: '/docs/github/ssh-github',
-              },
-              {
-                label: 'Cloner un dépôt GitHub',
-                to: '/docs/github/clone-repo',
-              },
-            ],
-          },
-          {
-            title: 'Nginx',
-            items: [
-              {
-                label: 'Installation',
-                to: '/docs/nginx/install-nginx',
-              },
-              {
-                label: 'Configuration',
-                to: '/docs/nginx/config-nginx',
-              },
-              {
-                label: 'Redirections de domaine',
-                to: '/docs/nginx/domain-redirect',
-              }
-            ],
-          },
-          {
             title: 'More',
             items: [
               {

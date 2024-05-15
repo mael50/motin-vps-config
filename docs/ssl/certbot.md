@@ -42,3 +42,25 @@ sudo certbot certificates
 ```
 
 Cette commande vous permettra de voir la liste des certificats SSL installés sur votre serveur.
+
+## Automatiser le renouvellement
+
+Pour automatiser le renouvellement des certificats SSL, vous pouvez ajouter une tâche cron. Pour cela, vous pouvez utiliser la commande suivante.
+
+```bash
+sudo touch /etc/cron.d/certbot
+```
+
+Ensuite, vous pouvez éditer le fichier avec la commande suivante.
+
+```bash
+nano /etc/cron.d/certbot
+```
+
+Vous pouvez ajouter la ligne suivante dans le fichier.
+
+```bash
+0 */12 * * * root certbot -q renew
+```
+
+Cette ligne permet de renouveler les certificats SSL tous les 12 heures. Vous pouvez modifier la fréquence en fonction de vos besoins.
