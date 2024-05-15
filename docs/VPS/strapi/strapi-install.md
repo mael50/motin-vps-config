@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ### Node.js
 
-Strapi nécessite Node.js pour fonctionner. Vous pouvez installer Node.js en suivant les instructions disponibles [ici](/docs/pm2/pm2-install#installer-nodejs).
+Strapi nécessite Node.js pour fonctionner. Vous pouvez installer Node.js en suivant les instructions disponibles [ici](/docs/VPS/pm2/pm2-install#installer-nodejs).
 
 ### Base de données
 
@@ -58,7 +58,7 @@ npx create-strapi-app my-project --quickstart
 ### Récupérer un projet existant
 
 Pour récupérer un projet existant, vous pouvez le cloner depuis votre repository Github.
-Vous pouvez retrouver la procédure pour cloner un repository Github [ici](/docs/github/clone-repo).
+Vous pouvez retrouver la procédure pour cloner un repository Github [ici](/docs/VPS/github/clone-repo).
 
 
 ## Démarrer Strapi
@@ -170,7 +170,7 @@ npm run develop
 ## Ajout du port 1337 à UFW
 
 Pour autoriser l'accès à Strapi depuis l'extérieur, il faut ajouter le port 1337 à UFW.
-Le tutoriel pour ajouter un port à UFW est disponible [ici](/docs/firewall/config-ufw).
+Le tutoriel pour ajouter un port à UFW est disponible [ici](/docs/VPS/firewall/config-ufw).
 
 ```bash
 sudo ufw allow 1337
@@ -181,7 +181,7 @@ Le port de base de Strapi est le port 1337. Vous pouvez le modifier en modifiant
 
 ## Lancement avec PM2
 
-Pour lancer Strapi avec PM2, vous devez d'abord vérifier que ce dernier est bien installé. Vous pouvez retrouver la procédure d'installation de PM2 [ici](/docs/pm2/pm2-install).
+Pour lancer Strapi avec PM2, vous devez d'abord vérifier que ce dernier est bien installé. Vous pouvez retrouver la procédure d'installation de PM2 [ici](/docs/VPS/pm2/pm2-install).
 
 Il va dans un premier temps falloir initialiser PM2.
 

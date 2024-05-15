@@ -17,7 +17,7 @@ sudo nano /etc/nginx/sites-available/strapi
 
 Comme Strapi tourne sur le port 1337 (ou un autre si vous l'avez modifié), vous devez créer un proxy pour rediriger les requêtes vers le port 1337. Voici un exemple de configuration que vous pouvez utiliser.
 
-(Veillez à remplacer `strapi.mael-laroque.fr` par votre nom de domaine et à créer un certificat SSL pour votre domaine, le tutoriel pour créer un certificat SSL est disponible [ici](/docs/ssl/certbot)).
+(Veillez à remplacer `strapi.mael-laroque.fr` par votre nom de domaine et à créer un certificat SSL pour votre domaine, le tutoriel pour créer un certificat SSL est disponible [ici](/docs/VPS/ssl/certbot)).
 
 ```nginx
 server {

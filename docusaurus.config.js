@@ -65,9 +65,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'vpsSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Documentation VPS',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'toolsSidebar',
+            position: 'left',
+            label: 'Outils & Logiciels',
           },
           {
             href: 'https://github.com/Motin50/website-motin',
