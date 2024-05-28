@@ -49,6 +49,6 @@ Les collections de données sont les "tables" de la base de données. Vous pouve
 
 ## Création de contenu
 
-Une fois que vous avez créé une collection de données, vous pouvez ajouter du contenu à cette collection. Pour cela, vous devez vous rendre dans l'interface d'administration de Strapi et cliquer sur "Content Manager". Vous pouvez ensuite cliquer sur la collection de données pour ajouter du contenu.
+Une fois que vous avez créé une collection de données, vous pouvez ajouter du contenu à cette collection. Pour cela, vous devez vous rendre dans l'interface d'administration de Strapi et cliquer sur "Content Manager". Vous pouvez ensuite cliquer sur la collection de données pour ajouter du contenu. 
 
     ![Ajout de contenu](/img/strapi-content.png)
